@@ -457,7 +457,6 @@ function App() {
           </div>
           <div className="header-text">
             <h1 className="museum-title">MLN131 - Chủ nghĩa xã hội khoa học</h1>
-            <p className="museum-subtitle">SO SÁNH MÔ HÌNH TRUNG QUỐC, CUBA, VIỆT NAM, LÀO</p>
           </div>
         </div>
       </header>
