@@ -13,6 +13,7 @@ import cubaImage from './assets/datnuocuba.jpg'
 import laosImage from './assets/datnuoclao.png'
 import logoMLN131 from './assets/logoMLN131.png'
 import dangCongsanCard from './assets/dangcongsan.png'
+import backgroundMln from './assets/backgroundMln.png'
 
 interface HitmapObject {
   id: string;
@@ -442,7 +443,16 @@ function App() {
   }, [selectedObject]);
 
   return (
-    <div className="app-museum">
+    <div 
+      className="app-museum" 
+      style={{ 
+        backgroundImage: `url(${backgroundMln})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed'
+      }}
+    >
       {/* Museum Header */}
       <header className="museum-header">
         <div className="header-inner">
